@@ -54,9 +54,11 @@
 ### Casting
 
 - Forçar um valor de um variável dentro da outra
-- `long numeroGrande = (long) 155.23;`
-  - Vai imprimir só 155 porque o long não suporta números decimais
+    ```java
+    long numeroGrande = (long) 155.23;
+    ```
+    - Vai imprimir só 155 porque o long não suporta números decimais
 
 ### String
 
-- Não é um tipo primitivo, é uma classe
+- Não é um tipo primitivo. String no Java é um objeto do tipo String

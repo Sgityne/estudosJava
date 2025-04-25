@@ -9,6 +9,7 @@
 
 ### Classes
 
+- O nome da classe tem que ser igual o nome do arquivo
 - Pela conversão, devem ser escrita em Pascal Case
     - MyExample
 
