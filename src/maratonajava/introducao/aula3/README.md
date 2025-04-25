@@ -64,11 +64,11 @@ System.out.println(result); // 0.5
     - Printa e depois incrementa
 
         ```java
-        System.***out***.println(counter++);
+        System.out.println(counter++);
         ```
 
     - Incrementa e depois printa
 
         ```java
-        System.***out***.println(++counter);
+        System.out.println(++counter);
         ```
