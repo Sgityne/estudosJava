@@ -1,6 +1,8 @@
+## Aula 06 - Arrays
+
 ### Definição
 
-- Arrays são referências para um espaço em memória mais de um valor
+- Arrays são referências para um espaço em memória que podem ter mais de um valor
 - É uma referência para os objetos em memória juntos
 <br><br>
 **Sintaxe**

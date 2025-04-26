@@ -34,6 +34,7 @@ public class Arrays {
             System.out.println(numbers2[i]);
         }
         */
+        // foreach
         for (int i:numbers2) {
             System.out.println(i);
         }
