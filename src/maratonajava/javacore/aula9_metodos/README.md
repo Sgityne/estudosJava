@@ -80,3 +80,6 @@ Exemplo: `studant.print();`
 - protected: Só pode ser acessado por classe dentro do mesmo pacote, classe e subclasse
 - public: Qualquer classe pode acessar o atributo
 - default: Só pode ser acessado por classe dentro do mesmo pacote e classe
+<br><br>
+- A finalidade dos getters e setters é proteger a lógica do código dentro da classe do objeto, não acessando diretamente o original
+- O pilar (pilares da orientação a objeto) que ele se relaciona é o encapsulamento
