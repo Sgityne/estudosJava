@@ -70,6 +70,7 @@ public void multiply(int num1, int num2) {}
 ### Referência this
 
 Exemplo: `studant.print();`
+- Se refere a instância daquele objeto
 
 ### Modificador de acesso private, get e set
 
