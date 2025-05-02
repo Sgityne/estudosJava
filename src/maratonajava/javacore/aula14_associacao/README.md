@@ -20,6 +20,9 @@
 ### Associações
 
 - Associação é o relacionamento entre dois objetos
+- O termo “tem” quando trabalhamos com associação significa que se tem um relacionamento entre eles
+  - Um aluno tem um seminário;
+  - Um professor tem vários seminários;
 
 **Tipos**
 
