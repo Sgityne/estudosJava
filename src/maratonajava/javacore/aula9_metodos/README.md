@@ -72,6 +72,11 @@ public void multiply(int num1, int num2) {}
 Exemplo: `studant.print();`
 - Se refere a instância daquele objeto
 
+### VarArgs
+
+- é um método que aceita um número variável de argumentos
+- Exemplo: `addVarArgs()`
+
 ### Modificador de acesso private, get e set
 
 - A representatividade de um classe quanto menos, melhor
