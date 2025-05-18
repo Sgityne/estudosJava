@@ -16,6 +16,12 @@ public class CalendarTest {
 
         c.add(Calendar.DAY_OF_MONTH, 2);
         c.roll(Calendar.HOUR, 12);
+
+        /*
+         Date recebe das datas em milissegundos.
+         O metodo getTime de Calendar retorna uma data em milissegundos (dado do tipo Date),
+         assim formatando da data pelo toString de Date.
+        */
         Date date = c.getTime();
         System.out.println(date);
     }

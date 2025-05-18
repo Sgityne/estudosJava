@@ -6,6 +6,7 @@ import java.util.Locale;
 
 public class LocaleTest {
     public static void main(String[] args) {
+        // Padrão lingua-País
         // pt-BR
         Locale localeItaly = new Locale("it", "IT");
         Locale localeCH = new Locale("it", "CH");
@@ -20,11 +21,13 @@ public class LocaleTest {
         DateFormat df4 = DateFormat.getDateInstance(DateFormat.FULL, localeJapao);
         DateFormat df5 = DateFormat.getDateInstance(DateFormat.FULL, localeHolanda);
 
-        System.out.println("Italia " + df1.format(calender.getTime()));
-        System.out.println("Suiça " + df2.format(calender.getTime()));
-        System.out.println("India " + df3.format(calender.getTime()));
-        System.out.println("Japão " + df4.format(calender.getTime()));
-        System.out.println("Holanda " + df5.format(calender.getTime()));
+        System.out.println(localeItaly.getDisplayCountry() + ": " + df1.format(calender.getTime()));
+        System.out.println(localeCH.getDisplayCountry() + ": " + df2.format(calender.getTime()));
+        System.out.println(localeIndia.getDisplayCountry() + ": " + df3.format(calender.getTime()));
+        System.out.println(localeJapao.getDisplayCountry() + ": " + df4.format(calender.getTime()));
+        System.out.println(localeHolanda.getDisplayCountry() + ": " + df5.format(calender.getTime()));
+
+        System.out.println("---------------------------");
 
         System.out.println(localeItaly.getDisplayCountry(localeJapao));
         System.out.println(localeCH.getDisplayCountry(localeHolanda));

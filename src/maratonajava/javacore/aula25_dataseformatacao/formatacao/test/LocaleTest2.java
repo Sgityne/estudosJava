@@ -4,7 +4,7 @@ import java.util.Locale;
 
 public class LocaleTest2 {
     public static void main(String[] args) {
-        System.out.println(Locale.getDefault());
+        System.out.println(Locale.getDefault()); // Ver como o SO está configurado
         String[] isoCountries = Locale.getISOCountries();
         String[] isoLanguages = Locale.getISOLanguages();
 
