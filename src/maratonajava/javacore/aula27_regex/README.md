@@ -39,3 +39,17 @@
 
 - `^` = usado para dar match exatamente o que ser quer no começo da linha
 - Também pode ser usado como negação se estiver dentro do `[]`
+
+### Scanner - Tokens e Delimitadores
+
+- Token é o resultado que se tem da utilização dos demilitadores.
+<br><br>
+    **Sintaxe:**
+
+    ```java
+    text.split(delimitador);
+    // or
+    scanner.useDelimiter(",");
+    ```
+
+  Retorna os tokens baseado no delimitador.
