@@ -1,7 +1,7 @@
-package maratonajava.javacore.aula35_Lambdas.test;
+package maratonajava.javacore.aula35_lambdas.test;
 
-import maratonajava.javacore.aula35_Lambdas.domain.Anime;
-import maratonajava.javacore.aula35_Lambdas.service.AnimeComparators;
+import maratonajava.javacore.aula35_lambdas.domain.Anime;
+import maratonajava.javacore.aula35_lambdas.service.AnimeComparators;
 
 import java.util.ArrayList;
 import java.util.List;

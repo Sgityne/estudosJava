@@ -1,6 +1,6 @@
-package maratonajava.javacore.aula35_Lambdas.service;
+package maratonajava.javacore.aula35_lambdas.service;
 
-import maratonajava.javacore.aula35_Lambdas.domain.Anime;
+import maratonajava.javacore.aula35_lambdas.domain.Anime;
 
 public class AnimeComparators {
     public static int compareByTitle(Anime a1, Anime a2) {

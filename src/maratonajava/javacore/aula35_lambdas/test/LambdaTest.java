@@ -1,4 +1,4 @@
-package maratonajava.javacore.aula35_Lambdas.test;
+package maratonajava.javacore.aula35_lambdas.test;
 
 import java.util.List;
 import java.util.function.Consumer;

@@ -1,4 +1,4 @@
-package maratonajava.javacore.aula35_Lambdas.domain;
+package maratonajava.javacore.aula35_lambdas.domain;
 
 public class Anime {
     private String title;
