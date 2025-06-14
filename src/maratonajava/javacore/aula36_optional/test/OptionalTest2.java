@@ -11,7 +11,7 @@ public class OptionalTest2 {
         mangaByTitle.ifPresent(m -> m.setTitle("Boku no Hero 2"));
         System.out.println(mangaByTitle);
 
-        Manga mangaById = MangaRepository.findById(2k).orElseThrow(IllegalArgumentException::new);
+        Manga mangaById = MangaRepository.findById(2).orElseThrow(IllegalArgumentException::new);
         System.out.println(mangaById);
 
         Manga newManga = MangaRepository.findByTitle("Drifters").orElseGet(() -> new Manga(3, "Drifters", 20));
