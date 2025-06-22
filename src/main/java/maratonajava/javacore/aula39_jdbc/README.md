@@ -570,3 +570,7 @@ private static void preparedStatementSaveTransaction(Connection conn, List<Produ
     }
 }
 ```
+
+## ResultSet vs RowSet
+
+https://stackoverflow.com/questions/6599625/resultset-vs-rowset-which-one-to-choose-and-when
